@@ -29,9 +29,26 @@ input{
     width: 70%;
     height: 30px;
     text-align: center;
+    border-radius: 5px;
 }
 button{
     font-size: 30px;
     width: 90px;
+    background-color: rgb(105, 105, 237);
+    color: white;
+    border-radius: 10px;
    
+}
+
+@media(max-width: 376px){
+
+    h1{
+       font-size: 30px;
+       color: rgb(119, 36, 187);
+
+    }
+    button:hover{
+        background-color: aqua;
+    }
+
 }
